@@ -1,0 +1,14 @@
+Support_Interaction_ID,Product_ID,Channel,Avg_Wait_Time_Min,Resolution_Time_Hours,First_Contact_Resolution,CSAT_Score,Complaint_ID,Complaint_Resolution_Time,SLA_Compliance_Flag,Exit_Ease (hours)
+S001,P001,Phone,3,0.5,Yes,5,N/A,N/A,N/A,36
+S002,P001,Phone,10,1,No,2,C001,120,No,68
+S003,P002,Phone,2,0.5,Yes,5,N/A,N/A,N/A,24
+S004,P003,Phone,1,0.5,Yes,5,N/A,N/A,N/A,43
+S005,P004,Chat,0,0.25,Yes,5,N/A,N/A,N/A,39
+S006,P005,Chat,1,0.25,Yes,4,N/A,N/A,N/A,40
+S007,P006,Chat,0,0.25,Yes,5,N/A,N/A,N/A,25
+S008,P006,Phone,8,1,No,1,C002,72,Yes,52
+S009,P007,Phone,2,0.5,Yes,4,N/A,N/A,N/A,50
+S010,P007,Phone,10,1,No,1,C004,96,No,72
+S011,P008,Phone,2,0.5,Yes,5,N/A,N/A,N/A,35
+S012,P008,Phone,5,0.5,No,2,C003,36,Yes,N/A
+S013,P009,Phone,1,0.25,Yes,5,N/A,N/A,N/A,56

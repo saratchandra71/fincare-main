@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Professional compliance dashboard colors */
+    --background: 0 0% 99%;
+    --foreground: 220 13% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 18%;
+
+    /* Professional blue primary */
+    --primary: 220 91% 47%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 220 91% 42%;
+    
+    /* Compliance secondary */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 13% 18%;
+    --secondary-hover: 220 14% 93%;
+
+    /* Muted tones for data display */
+    --muted: 220 13% 96%;
+    --muted-foreground: 220 8.9% 46.1%;
+
+    /* Professional accent */
+    --accent: 220 14% 96%;
+    --accent-foreground: 220 13% 18%;
+
+    /* Compliance status colors */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 220 91% 47%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode professional colors */
+    --background: 220 16% 8%;
+    --foreground: 220 13% 96%;
+
+    --card: 220 16% 10%;
+    --card-foreground: 220 13% 96%;
+
+    --popover: 220 16% 10%;
+    --popover-foreground: 220 13% 96%;
+
+    /* Professional blue primary - darker theme */
+    --primary: 220 91% 52%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 220 91% 47%;
+    
+    /* Dark secondary */
+    --secondary: 220 16% 16%;
+    --secondary-foreground: 220 13% 96%;
+    --secondary-hover: 220 16% 20%;
+
+    /* Muted tones for dark mode */
+    --muted: 220 16% 16%;
+    --muted-foreground: 220 8.9% 60%;
+
+    /* Dark accent */
+    --accent: 220 16% 16%;
+    --accent-foreground: 220 13% 96%;
+
+    /* Dark compliance status colors */
+    --success: 142 76% 42%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 55%;
+    --warning-foreground: 0 0% 100%;
+    --destructive: 0 84% 65%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 16% 16%;
+    --input: 220 16% 16%;
+    --ring: 220 91% 52%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

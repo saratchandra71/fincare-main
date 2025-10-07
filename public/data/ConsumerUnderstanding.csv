@@ -1,0 +1,10 @@
+communication_ID,Product_ID,Channel,Readability_Score,Reviewed_By_Compliance,Customer_Quiz_Score,Complaint_Text,Miscommunication_Flag,Theme,Complaint_Count_Per_Theme
+COM001,P001,Letter,45,No,N/A,I didn't realize my mortgage rate would jump after the fixed period ended. This wasn't clearly explained.,Yes,Rate shock after fix,8
+COM002,P002,Email,65,Yes,N/A,N/A,No,N/A,0
+COM003,P003,Website,70,Yes,88%,N/A,No,N/A,0
+COM004,P004,Email,55,Yes,75%,N/A,No,N/A,0
+COM005,P005,Email,70,Yes,N/A,N/A,No,N/A,0
+COM006,P006,Website,50,No,N/A,They charged me a fee for paying off my loan early. I wasn't informed about this charge.,Yes,Early payoff fee confusion,5
+COM007,P007,Website,80,Yes,N/A,N/A,No,N/A,0
+COM008,P008,Letter,52,No,N/A,Nobody told me that after one year my money would earn almost no interest.,Yes,Maturity rollover unclear,4
+COM009,P009,Website,75,Yes,N/A,N/A,No,N/A,0

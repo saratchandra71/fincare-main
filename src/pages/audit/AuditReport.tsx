@@ -1,0 +1,1 @@
+export default function AuditReport(){return <div><h1 className='text-2xl font-bold'>Audit Report</h1><p className='text-muted-foreground'>Coming soon.</p></div>}

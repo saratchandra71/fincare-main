@@ -1,0 +1,1 @@
+export default function ConsumerDuty(){return <div><h1 className='text-2xl font-bold'>Consumer Duty</h1><p className='text-muted-foreground'>Manage datasets and navigate outcome analyses.</p></div>}

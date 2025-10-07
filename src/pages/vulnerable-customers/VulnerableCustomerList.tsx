@@ -1,0 +1,1 @@
+export default function VulnerableCustomerList(){return <div><h1 className='text-2xl font-bold'>Vulnerable Customer List</h1><p className='text-muted-foreground'>Coming soon.</p></div>}

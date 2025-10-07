@@ -1,0 +1,10 @@
+Product_ID,Product_Name,Product_Type,Launch_Date,Target_Market_Profile,Actual_Customer_Profile,Uptake_Rate,Early_Closure_Rate,Complaint_Count,Vulnerable_Customer_proportion,Product_Status
+P001,Flexi Fix Mortgage 2019,Mortgage,2/1/2019,Existing borrowers remortgaging,Mix of remortgagers and some first-time buyers,60%,2%,10,10%,Legacy
+P002,Tracker Mortgage 2020,Mortgage,9/1/2020,Homeowners comfortable with rate changes,Rate-savvy homeowners,40%,1%,2,5%,Legacy
+P003,Green Home Mortgage 2023,Mortgage,3/15/2023,Eco-conscious first-time buyers,Mostly first-time buyers (aligned),50%,3%,3,2%,Active
+P004,Personal Loan Standard,Loan,1/1/2017,General consumers with good credit,Broad consumer base (mixed credit profiles),80%,12%,5,15%,Active
+P005,Home Improvement Loan,Loan,7/1/2021,Homeowners needing renovation funds,Primarily homeowners as expected,30%,5%,1,2%,Active
+P006,Car Loan Special,Loan,8/1/2022,Car buyers via dealership partner,Mostly car buyers through dealers,50%,3%,6,3%,Active
+P007,Easy Access Saver,Savings,6/1/2015,General savers needing liquidity,Wide range of customers (many seniors),90%,2%,4,12%,Active
+P008,Fixed Term Saver 1yr,Savings,1/1/2022,Savers seeking higher fixed interest,Wide range of savers (limited experience),70%,0%,5,3%,Active
+P009,Junior Saver Account,Savings,3/1/2018,Parents saving for children,Primarily parents for children (aligned),40%,1%,0,4%,Active
